@@ -1,0 +1,188 @@
+/*1024 */
+@media(max-width:1024px) {
+	.main-container {
+		padding: 1rem 0px;
+	}
+
+	.main-right {
+		padding: 0px 0px 0px 10px;
+	}
+
+	.feature-card {
+		float: unset;
+		width: 95%;
+	}
+
+	.feature-video {
+		width: 95%;
+		float: unset;
+		margin-top: 1rem;
+	}
+
+	.video-content iframe {
+		height: 100%;
+		width: 100%;
+		margin: auto;
+	}
+
+}
+
+/* 768 */
+@media(max-width:768px) {
+	.img-content img {
+		width: 40px;
+	}
+
+	.footer-left {
+		width: 100%;
+	}
+
+	.footer-right {
+		width: 100%;
+	}
+
+	.footer-main {
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.footer-right .border-left {
+		border-left: none;
+	}
+
+}
+
+/* 578 */
+@media(max-width:578px) {
+	.adephi-main > div {
+		display: flex;
+		width: 100%;
+		padding: 10px 0px;
+	}
+
+	.company-main > div {
+		display: block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.main-content > div {
+		display: block;
+		width: 100%;
+	}
+
+	.main-right {
+		padding: 0px;
+		margin-top: 1rem;
+	}
+
+	.footer-left {
+		display: flex;
+		padding: 1rem 1rem;
+		flex-wrap: wrap;
+	}
+
+	.footer-item {
+		width: 45%;
+	}
+
+	.outer {
+		padding: 0px;
+		box-shadow: none;
+		max-width: 500px;
+		margin: auto;
+	}
+
+	.sidebar.text-center img {
+		display: none;
+	}
+
+	.pharmacy-main > div {
+		display: block;
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.topbar ul {
+		padding: 0px;
+		margin: 5px 0px;
+	}
+
+	.number {
+		padding: 0px;
+	}
+
+	.address-content {
+		max-width: 400px;
+		margin: auto;
+	}
+
+	.number p {
+		padding: 6px;
+	}
+
+	.address-content > div {
+		display: flex;
+		width: auto;
+		align-items: center;
+	}
+
+	.pharmacy-main {
+		display: block;
+	}
+
+	.address-content {
+		width: 100%;
+		display: flex !important;
+		flex-direction: row;
+	}
+
+	.text-content {
+		padding: 0px 10px;
+	}
+
+	.log-main > div {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	.search-content input {
+		width: 60%;
+	}
+
+	.mainlogo-content {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		margin-right: auto;
+		padding: 0px;
+		margin: auto;
+	}
+
+	.logo-content img {
+		height: 100px;
+		width: 200px;
+		margin: auto;
+	}
+
+	.log-main {
+		display: block;
+	}
+
+	.head-line h2 {
+		margin: 8px 0px;
+	}
+
+	.topbar ul {
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		float: unset;
+		text-align: center;
+	}
+
+}
